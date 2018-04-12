@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema.define(version: 20180412165241) do
+ActiveRecord::Schema.define(version: 20180412172189) do
 
   create_table "donuts", force: :cascade do |t|
     t.string "title"
@@ -19,8 +18,7 @@ ActiveRecord::Schema.define(version: 20180412165241) do
     t.float "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-
-ActiveRecord::Schema.define(version: 20180412172189) do
+  end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
@@ -1067,7 +1065,6 @@ ActiveRecord::Schema.define(version: 20180412172189) do
     t.string "kind"
     t.index ["default_tax"], name: "index_spree_zones_on_default_tax"
     t.index ["kind"], name: "index_spree_zones_on_kind"
-
   end
 
 end
