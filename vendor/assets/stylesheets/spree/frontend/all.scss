@@ -14,6 +14,7 @@ $main-pink: #ec629f;
 $light-tan: #f8d196;
 $main-yellow: #f8fc85;
 
+
 body {
   background-color: $light-tan;
   font-family: "Gugi", cursive;
@@ -46,6 +47,7 @@ body {
 
 .btn-success:hover {
   background-color: $main-brown;
+
 }
 
 .price.selling.lead {
@@ -63,4 +65,3 @@ body {
 .cart-total td {
   color: black;
 }
-
