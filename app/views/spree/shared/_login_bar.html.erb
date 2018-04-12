@@ -3,4 +3,5 @@
   <li><%= link_to Spree.t(:logout), spree.logout_path %></li>
 <% else %>
   <li id="link-to-login"><%= link_to Spree.t(:login), spree.login_path %></li>
+  <li id="link-to-register"><%= link_to Spree.t(:Register), spree.signup_path %></li>
 <% end %>
