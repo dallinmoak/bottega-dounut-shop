@@ -1,11 +1,7 @@
 # Donut Shop!
 A shop that Homer Simpson would drool over.
 
-# Donut
-- Andrew Cashman
-- Jared Dunn
-
-# stripe:
+## Stripe:
 
 https://github.com/stripe/stripe-ruby/
 
