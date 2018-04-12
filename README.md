@@ -2,7 +2,7 @@
 A shop that Homer Simpson would drool over.
 
 ## Stripe:
->>>>>>> 1afd181593cc485215e10f4a716ab03579d0d5cb
+
 
 https://github.com/stripe/stripe-ruby/
 
