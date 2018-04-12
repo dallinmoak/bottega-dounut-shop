@@ -1,6 +1,10 @@
 <h1>Donuts Index Page</h1>
-
-<% @donuts.each do |donut| %>
-  <%= donut.title %>
-<% end %>
+<div>
+  <% @donuts.each do |donut| %>
+  <br>
+    <%= donut.title %>
+    <%= link_to 'Edit', edit_donut_path(donut) %>
+    <%= link_to 'Delete', donut, method: :delete, data: { confirm: 'Are you sure that you want to delete this donut?'} %>
+  <% end %>
+</div>
 <%= link_to "New", new_donut_path %>
