@@ -3,7 +3,7 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *
- *= require spree/frontend
+ *= require spree/backend
 
  *= require_self
  *= require_tree .
@@ -14,14 +14,21 @@ $main-pink: #ec629f;
 $light-tan: #f8d196;
 $main-yellow: #f8fc85;
 
-
 body {
   background-color: $light-tan;
-  font-family: "Gugi", cursive;
+  font-family: "Arapey" sans-serif;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: $main-green;
 }
 
 .logo-text-size {
   color: white;
+}
+
+#sidebar-toggle.navbar-toggle {
+  background-color: $main-green;
 }
 
 #content {
@@ -47,21 +54,12 @@ body {
 
 .btn-success:hover {
   background-color: $main-brown;
-
 }
 
-.price.selling.lead {
-  color:#47aea0;
+.btn.btn-success {
+  border-radius: 5px;
 }
 
-.well {
-  color:black;
-}
-
-.active th {
-  color:black;
-}
-
-.cart-total td {
-  color: black;
+#donut-logo {
+  width: 42px;
 }
