@@ -1,0 +1,6 @@
+<h1>Donuts Index Page</h1>
+
+<% @donuts.each do |donut| %>
+  <%= donut.title %>
+<% end %>
+<%= link_to "New", new_donut_path %>
