@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+
+ *= require_self
+ *= require_tree .
+*/
+$main-green: #47aea0;
+$main-brown: #5b2f26;
+$main-pink: #ec629f;
+$light-tan: #f8d196;
+$main-yellow: #f8fc85;
+
+// body {
+//   font-family: Oxygen;
+// }
+
+body {
+  background-color: $light-tan;
+}
+
+.gr__localhost{ 
+  
+}
+#main-nav-bar {
+  
+}
+
+#main-nav-bar #home-link a{
+
+}
+
+#spree-header {
+  background-color: $main-green;
+}
+
+#header {
+  
+}
+
+.btn-success {
+  background-color: $main-pink;
+  outline-color: $main-green;
+}
+
+.btn-success:hover {
+  background-color: $main-brown;
+}
